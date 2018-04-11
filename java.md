@@ -13,6 +13,10 @@ Fichier .class = byte code
 
 .jar = biliothèque
 
+On peut rendre un .jar excecutable. Il faut une fonction main et un fichier metainf à la racine
+
+/** génère une javadoc
+
 ## Les variables
 Le type byte(1 octet) peut contenir les entiers entre -128 et +127.
 
@@ -66,5 +70,7 @@ transient interdit serialisation
 serialisation : sauvegarde dans une base de données
 
 final = constante (valeur non modifiable)
+
+abstract = ne peut pas être instanciée
 
 `pubic final int PAGE_SIZE=10;`
