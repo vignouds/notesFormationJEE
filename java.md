@@ -74,3 +74,29 @@ final = constante (valeur non modifiable)
 abstract = ne peut pas être instanciée
 
 `pubic final int PAGE_SIZE=10;`
+
+signature = couple nom-paramètres
+
+cast = transtypage
+
+## Conventions de nommage
+
+UpperCamelCase
+LowerCamelCase
+
+## maven
+Modifier le fichier pom.xml du projet pour indiquer que l’on compile des sources avec la version Java 8
+
+```
+<project>
+//....
+<properties>
+  <maven.compiler.target>1.8</maven.compiler.target>
+  <maven.compiler.source>1.8</maven.compiler.source>
+</properties>
+</project>
+```
+
+## Tests
+JUnit = framework de test en Java
+PIC = Plateforme d'Integration Continue
