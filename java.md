@@ -71,13 +71,17 @@ serialisation : sauvegarde dans une base de données
 
 final = constante (valeur non modifiable)
 
-abstract = ne peut pas être instanciée
-
 `pubic final int PAGE_SIZE=10;`
+
+abstract = ne peut pas être instanciée
 
 signature = couple nom-paramètres
 
 cast = transtypage
+
+methode statique = une seule instance par classe ; appellable sur la classe elle-même
+
+Une classe anonyme n'a pas de nom
 
 ## Conventions de nommage
 
