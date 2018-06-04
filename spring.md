@@ -39,6 +39,10 @@ Tous les champs sont automatiquement mappés
 ## Spring Web MVC
 Bean controller remplace servlet
 
+## Web API
+``@RequestMapping(method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})`` pour proposer du JSON et du XML
+idem avec consumes
+
 ## Rappels généraux (revue de code)
 ### POM.xml
 finalName = nom du package de notre application
@@ -67,3 +71,9 @@ JpaRepository pour utiliser Spring Data JPA
 
 ### StartUpAppListener
 exécution de la méthode initialiser quand le contexte Spring est entièrement chargé
+
+## Spring security
+passwordEncoder = bean Spring qui détermine l'algorithme de hachage
+
+## Spring boot
+Webjar = packaging des projets front (jquery...) dans des jars
