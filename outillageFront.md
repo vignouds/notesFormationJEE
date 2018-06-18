@@ -14,3 +14,27 @@ Port par défaut de node = 3000
 
 ``npm start`` pour lancer le script si on spécifié le raccourcis dans package.json
 idem pour ``npm test``
+
+## Rappel JE ES5
+undefined : valeur n'a jamais été affectée
+null : affectée à  null
+
+## ES6
+possibilité de déclarer des constantes avec ``const``
+``let`` variable avec scope au niveau block
+arrow function = équivalent des lambdas en Java ; avec des parenthèses à gauche de la flèche le return est implicite
+
+### functions parameters
+````
+function f(x, y=7, z=42) {
+  return x+y+z
+}
+f(1)===50
+f(1,2)===45
+f(1,2,3)===6
+````
+
+### classes
+mot-clef class
+En JS, 1 seul constructeur par classes
+Heritage avec extends et super(), comme en Java
